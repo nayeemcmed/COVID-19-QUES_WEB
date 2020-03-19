@@ -8,16 +8,23 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 
 <style>
+
+
 body {
   margin: 0;
 }
 
+
+
 /* Style the header */
 .header {
   background-color: #0099ff;
-  padding: 20px;
+  padding: 90px;
   text-align: center;
 }
+
+
+
 </style>
 </head>
 <body> 
@@ -89,7 +96,7 @@ body {
 
 
     function newwin() {
-       
+  
       window.open("first.html");
 
     }
@@ -98,18 +105,21 @@ body {
 
 
 <div class="header">
-  <img src="C:\Users\CMED\Desktop\Questionnaire_corona\img\1-08.jpg" alt="Girl in a jacket" style="width:200px;height:150px;">
-  <h2>অনলাইন করোনা ভাইরাস টেস্ট</h2>
-  <p >"মুজিববর্ষ উপলক্ষে CMED Health Ltd এর পক্ষ হতে উপহার"</p>
+  <img src="C:\Users\CMED\Desktop\Questionnaire_corona\img\2.jpg" alt="Girl in a jacket" style="widows: 140px;height:130px;">
+  <h2>অনলাইন করোনা ভাইরাস উপসর্গ মূল্যায়ন</h2>
 </div>
-<h1 style="text-align:center">আপনি কি করোনা (COVID - 19) ভাইরাসে এর ঝুঁকি নিজে নিজে যাচাই করতে চান?</h1>
+<h1 style="text-align:center" font->আপনি কি করোনা (COVID - 19) ভাইরাসে এর ঝুঁকি নিজে নিজে যাচাই করতে চান?</h1>
 <diV>
-  <form action="/action_page.php" style="text-align:center">
-   <label for="fname" style="font-size:bold">আপনার নামঃ</label><br>
-   <input type="text" id="name" placeholder="Your Name"><br><br>
-   <label for="lname" style="font-size:bold">আপনার মোবাইল নাম্বারঃ</label><br>
-   <input type="text" id="mobile" placeholder="Mobile Number" ><br><br>
-   <label for="lname" style="font-size:bold">আপনার ঠিকানা প্রদান করুনঃ</label><br><br>
+  <form action="/first.html" style="text-align:center">
+    <div class="block" Style="display: inline-block">
+   <label for="fname" style="font-size:bold">আপনার নামঃ</label>            
+   <input type="text" id="name" placeholder="Your Name">
+   </div><br><br>
+   <div Style="display: inline-block">
+   <label for="lname" style="font-size:bold">মোবাইল নাম্বারঃ</label>       
+   <input type="text" id="mobile" placeholder="Mobile Number" ><br>
+  </div>
+   <h4 for="lname" style="font-size:bold">আপনার ঠিকানা প্রদান করুনঃ</h4>
    <div>
   </head>
   <body onload="resetSelection()">
@@ -127,13 +137,12 @@ body {
   <select id="citySelect" size="1" >
   <option value="" disabled selected>Choose District</option>
   <option></option>
-  </select>
+  </select><br><br>
 </div>
-   <button style="background-color: rgb(24, 123, 161); font-size: 10px; padding: 12px 28px; text-align: center; font-weight: bold; font-size: medium; color:cornsilk" type="Submit" onclick="newwin()">শুরু করুন</button>
- </form> 
-     </diV>
-     <div>
-      <h3 style="text-align: center">Powered By: CMED Health Ltd</h3>
-    </div>
+   <button style="background-color: rgb(24, 123, 161); font-size: 10px; padding: 12px 28px; text-align: center; font-weight: bold; font-size: medium; color:cornsilk" type="Submit" onclick="newwin()">শুরু করুন</button><br>
+   <div >
+    <p style="font-size:bold" >Powered By: CMED Health Ltd</p>
+  </div> 
+  </form>
 </body>
 </html>
